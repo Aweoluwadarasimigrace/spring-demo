@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle-parent{
+    position: relative;
+    width: 35em;
+    height: 50vh;
+    border: 2px solid black;
+    margin: 100px auto;
+}
+
+.circle1{
+    position: absolute;
+    border-radius: 50%;
+    background-color: blue;
+    
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: 170px;
+
+}
+.circle2{
+    mix-blend-mode: difference;
+}
+.circle3{
+    mix-blend-mode: difference;
+}
+.circle2{
+    position: absolute;
+    border-radius: 50%;
+    background-color: green;
+    
+    width: 200px;
+    height: 200px;
+    top: 120px;
+    left: 220px;
+}
+.circle3{
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    
+    width: 200px;
+    height: 200px;
+    top: 120px;
+    left: 100px;
+}

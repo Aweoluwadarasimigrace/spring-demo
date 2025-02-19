@@ -1,0 +1,594 @@
+*{
+    margin: 0px;
+   
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #f2f7f8;
+    padding: 10px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 79%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.first-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+.image{
+    width: 173px;
+}
+  .second-div{
+    display: flex;
+    gap: 1.8em;
+}
+
+.second-div li{
+    list-style-type: none;
+}
+.second-div li a{
+    text-decoration: none;
+    color: #3D4F60;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Jakarta;
+    line-height: 27.2px;
+
+}
+.third-div{
+    display: flex;
+    gap: 0.6em;
+}
+.third-div .button1{ border-radius: 10px;
+    background-color: #F2F7F8;
+padding: 14px;
+width: 96px;
+}
+.third-div .button1 a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #0C1825;
+    font-size: 15px;
+}
+.third-div .button2{
+    border-radius: 10px;
+    background-color: #122231;
+    padding: 14px;
+}
+.third-div .button2 a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dropdown1{
+    position: relative;
+    z-index: 2;
+    
+    
+}
+.dropdown1-wrapper{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px whitesmoke;
+    width: 30em;
+    height: 35vh;
+    padding: 15px;
+    display: none;
+   
+}
+.dropdown1:hover .dropdown1-wrapper{
+    display: block;
+}
+
+.dropdown-ul{
+    position: absolute;
+    
+    
+}
+.dropdown1-img{
+    width: 45px;
+}
+.dropdown1-a{
+    display: flex;
+    
+    gap: 1em;
+    padding:5px;
+    width: 15em;
+}
+.dropdown1-p1{
+    font-size: 20px;
+    color: black;
+    font-family: Jakarta;
+    position: relative;
+    
+}
+.dropdown1-p1:hover{
+    color: #3178DD;
+}
+.dropdown1-p2{
+    font-size: 14px;
+    position: absolute;
+  top: 30px;
+  left: 70px;
+  
+   
+}
+
+.dropdown-ul2{
+    position: absolute;
+    top: 90px;
+}
+
+.dropdown1-a2{
+    display: flex;
+   
+    gap: 1em;
+    padding:5px;
+    width: 15em;
+}
+.dropdown1-target{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    font-family: Jakarta;
+    position: relative;
+
+}
+.dropdown1-target:hover{
+    color: #10B259;
+}
+.dropdown1-goal{
+    font-size: 15px;
+    font-family: Jakarta;
+    font-weight: 500;
+    position: absolute;
+    top: 25px;
+    left: 69px;
+}
+.dropdown-ul3{
+    position: absolute;
+    top: 175px;
+    left: 19px;
+}
+.dropdown1-a3{
+    display: flex;
+    gap: 1em;
+    
+    width: 15em;
+    
+}
+.dropdown1-flex{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    font-family: Jakarta;
+
+}
+.dropdown1-dollar{
+    font-size: 14px;
+    font-family: Jakarta;
+    position: absolute;
+    top: 23px;
+    left: 60px;
+}
+.dropdown-ul4{
+    position: absolute;
+    left: 250px;
+}
+.dropdown1-a4{
+    display: flex;
+    width: 15em;
+    gap: 1em;
+}
+.dropdown1-safe{
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-family: Jakarta;
+}
+.dropdown1-fixed{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    font-size: 14px;
+    font-family: Jakarta;
+}
+.dropdown-ul5{
+    position: absolute;
+    top: 90px;
+    left: 250px;
+}
+.dropdown1-a5{
+    display: flex;
+    gap: 1em;
+    width: 15em;
+}
+.dropdown1-flexnaira{
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-family: Jakarta;
+}
+.dropdown1-flexible{
+    position: absolute;
+    font-size: 14px;
+    font-family: Jakarta;
+    top: 20px;
+    left: 70px;
+}
+.dropdown-ul6{
+    position: absolute;
+    left: 250px;
+    top: 180px;
+
+}
+.dropdown1-a6{
+    display: flex;
+    gap: 1em;
+    width: 15em;
+}
+.dropdown1-house{
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-family: Jakarta;
+}
+.dropdown1-wallet{
+    position: absolute;
+    font-size: 14px;
+    font-family: Jakarta;
+    top: 23px;
+    left: 70px;
+}
+.img{
+    border-radius: 15px;
+    padding-left: 5px;
+} 
+.dropdown2{
+    position: relative;
+    z-index: 2;
+}
+.dropdown2-wrapper{
+    position: absolute;
+   display: none;
+    width: 26em;
+    height: 35vh;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px whitesmoke;
+}
+.dropdown2:hover .dropdown2-wrapper{
+display: block;
+}
+.dropdown2-div1{
+    position: absolute;
+    
+}
+.dropdown1-img2{
+    width: 40px;
+}
+.dropdown2-a1{
+    display: flex;
+    gap: 1em;
+    position: relative;
+    
+}
+.dropdown2-a1 p{
+    position: absolute;
+    left: 60px;
+    top: 5px;
+  
+}
+.dropdown2-div2{
+    position: absolute;
+    top: 100px;
+}
+.dropdown2-a2{
+    display: flex;
+    position: relative;
+    
+
+}
+.dropdown2-a2 p{
+    position: absolute;
+    left: 60px;
+    top: 5px;
+}
+.dropdown2-div3{
+    position: absolute;
+    top: 180px;
+}
+.dropdown2-a3{
+    position: relative;
+    display: flex;
+    
+}
+.dropdown2-a3 p{
+    position: absolute;
+    left: 60px;
+    top: 5px;
+}
+.dropdown2-div4{
+    position: absolute;
+    left: 270px;
+}
+.dropdown2-a4{
+    position: relative;
+    display: flex;
+
+}
+.dropdown2-a4 p{
+    position: absolute;
+    left: 55px;
+    top: 5px;
+}
+.dropdown2-div5{
+    position: absolute;
+    left: 270px;
+    top: 100px;
+}
+.dropdown2-a5{
+    position: relative;
+    display: flex;
+
+}
+.dropdown2-a5 p{
+    position: absolute;
+    left: 55px;
+    top: 5px;
+}
+.dropdown2-div6{
+    position: absolute;
+    left: 270px;
+    top: 180px;
+}
+.dropdown2-a6{
+    position: relative;
+    display: flex;
+}
+.dropdown2-a6 p{
+    position: absolute;
+    left: 55px;
+    top: 5px;
+}
+section{
+    background-color: #F2F7F8;
+}
+.section-wrapper{
+    display: flex;
+   
+   
+}
+.btn{
+    background-color: #0089FF;
+    border: none;
+    border-radius: 50px;
+    width: 27em;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section-div1{
+    /* border: 2px solid black; */
+     padding: 180px;
+     padding-left: 170px;
+}
+
+.section-a1{
+    text-decoration: none;
+}
+
+.section-flower{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+
+    animation: change3 infinite;
+}
+
+
+.section-div2{
+    position: absolute;
+    left: 50px;
+    top: 13px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Jakarta, sans-serif;
+}
+.section-h1{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 48px;
+    color: #122231;
+    margin-bottom: 20px;
+}
+.section-p1{
+    color: #485460;
+    font-family: Jakarta, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.section-p2{
+    color: #485460;
+    font-family: Jakarta, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.section-p3{
+    color: #485460;
+    font-family: Jakarta, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.btn-div{
+    display: flex;
+    gap: 1.5em;
+}
+.section-btn{
+    position: relative;
+    width: 12em;
+    padding: 25px;
+    background-color: #122231;
+    border: none;
+    border-radius: 10px;
+    
+}
+.section-btn:hover{ animation: change 1s ;
+    background-color: black;
+    
+    
+}
+@keyframes change{
+    from{
+        transform: translatey(0px);
+    }
+    to{
+        transform: translateY(-3px);
+    }
+}
+.section-a2{
+    text-decoration: none;
+   
+}
+.iphone-img{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 18px;
+    
+}
+.section-p4{
+    text-decoration: none;
+    position: absolute;
+    left: 36.5px;
+    top: 17px;
+    color: #fff;
+    font-family: Jakarta sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-btn2{
+    position: relative;
+    width: 12em;
+    padding: 25px;
+    background-color: #122231;
+    border: none;
+    border-radius: 10px;
+}
+.section-btn2:hover{
+    animation: change2 3s;
+    background-color: black;
+}
+@keyframes change2{
+    from{
+        transform: translateY(-4px);
+    }
+}
+.section-a3{
+    text-decoration: none;
+   
+}
+.google-img{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 22px;
+    
+}
+.section-p5{
+    text-decoration: none;
+    position: absolute;
+    left: 36.5px;
+    top: 17px;
+    color: #fff;
+    font-family: Jakarta sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-div3{
+    position: relative;
+    animation: change3 6s infinite;
+    z-index: 1;
+    
+    
+}
+@keyframes change3{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(30px);
+    }
+}
+.section-woman{
+    width: 31em;
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    padding-top: 90px;
+    
+}
+.section-safe{
+    position: absolute;
+    width: 220px;
+    left: 60px;
+    top: 140px;
+}
+.section-flex{
+    position: absolute;
+    width: 190px;
+    top: 310px;
+    left: 52px;
+
+}
+.section-piggy{
+    position: absolute;
+    width: 190px;
+    top: 480px;
+    left: 70px;
+}
+.section-target{
+    position: absolute;
+    width: 220px;
+    top: 9em;
+    left: 470px;
+     
+}
+.section-investify{
+    position: absolute;
+    width: 200px;
+    top: 23em;
+    left: 490px;
+    
+}
+
+    
+.section-house{
+    position: absolute;
+    width: 220px;
+    left: 460px;
+top: 34em;
+}

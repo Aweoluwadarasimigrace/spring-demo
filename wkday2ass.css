@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    
+    width: 50vh;
+    height: 80vh;
+    margin: 100px auto;
+    position: relative;
+    background-color: rgb(229, 222, 221);
+    box-shadow: 0px 0px 4px white;
+    border-radius: 10px;
+}
+.circle{
+    
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    left: 80px;
+    top: 30px;
+    animation: change 0.6s infinite linear;
+
+}
+@keyframes change{
+    
+    100%{transform: rotate(360deg);
+
+    }
+}
+.blade{
+    position: absolute;
+    width: 10px;
+    height: 14vh;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 7px;
+    left: 57px;
+    top: 30px;
+    rotate: 120deg;
+   
+
+}
+.blade2{
+    position: absolute;
+    width: 10px;
+    height: 14vh;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 7px;
+    left: 140px;
+    top: 30px;
+    rotate: 60deg;
+
+}
+.blade3{
+    position: absolute;
+    width: 10px;
+    height: 14vh;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 7px;
+    left: 100px;
+    top: 102px;
+    rotate: 180deg;
+}
+.stand{
+    
+    width: 18px;
+    height: 38vh;
+    border-radius: 5px;
+    background: linear-gradient(white, lightpink);
+    position: absolute;
+    top: 240px;
+    left: 175px;
+    box-shadow: 0px 0px 1px white;
+}
+.circle-bottom{
+    border-radius: 50%;
+    width: 120px;
+    height: 43px;
+    background-color: pink;
+    position: absolute;
+    top: 514.6px;
+    left: 123px;
+}
+.fa-solid{
+    position: absolute;
+    top: 50px;
+}
+

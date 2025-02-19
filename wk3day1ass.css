@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+
+}
+.child{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+}
+.child1{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    border: none;
+}
+.child2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: mediumaquamarine;
+    border: none;
+}
+.child3{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border: none;
+}
+.child4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: none;
+}
+.child5{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    border: none;
+
+}
+.child6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+    border: none;
+}

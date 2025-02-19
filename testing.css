@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.hero{
+    background-color: blue;
+    position: relative;
+    z-index: 4;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+}
+.hero-text{
+    position: relative;
+    align-items: center;
+    z-index: 8;
+}
+.semi-circle{
+    height: 600px;
+    width: 600px;
+    background-color: azure;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    top: -100px;
+    left: -100px;
+}
+.quater-box{
+    transform: skewX(40deg);
+    left: -70px;
+    top: 40px;
+    rotate: -10deg;
+    width: 400px;
+    height: 600px;
+    z-index: 1;
+    position: absolute;
+    background-color: pink;
+}
+.quater-box2{
+    transform: skewY(-30deg);
+    left: 0;
+    top: -250px;
+    rotate: 0deg;
+    height: 600px;
+    width: 400px;
+    background-color: aquamarine;
+    position: absolute;
+    z-index: 2;
+}
+.right-circle{
+       top: -50px;
+       right: 0;
+       display: grid;
+       position: relative;
+       height: 400px;
+       grid-template-areas:
+       "first-box third-box"
+       "second-box fourth-box"
+        ;
+        grid-template-columns: auto auto;
+        justify-content: end;
+        align-items: end;
+        z-index: 5;
+        position: absolute;
+}
+.first-box{
+    border-start-start-radius: 100%;
+    grid-area: first-box;
+    width: 250px;
+    height: 210px;
+    background-color: brown;
+}
+.third-box{
+    right: 0;
+    grid-area: third-box;
+    width: 250px;
+    z-index: 7;
+    height: 209px;
+    /* position: absolute; */
+    background-color: cadetblue;
+}
+.second-box{
+    grid-area: second-box;
+    width: 150px;
+    height: 200px;
+}
+.fourth-box{
+    grid-area: fourth-box;
+    width: 250px;
+    height: 200px;
+    background-color: beige;
+}
